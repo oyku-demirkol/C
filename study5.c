@@ -3,6 +3,8 @@
 
 int main()
 {
+    //the switch case shouldn't care about what you define as invalid , its arbitrary , thats way it doesn't matter what we write.
+    //and also -1 is a common "invalid" value
     int day = -1 ;
     printf("please enter the day value as a number in the range of [1,7] :");
 
@@ -28,6 +30,9 @@ int main()
     break;
      case 7:
         printf("Sonday\n");
+    break;
+    default:
+        printf("value entered is invalid!!\n");
     break;
 
 
