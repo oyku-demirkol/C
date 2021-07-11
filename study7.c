@@ -5,12 +5,12 @@
 //rolling two dice 10 times
 int main(){
     srand(time(NULL));
-    int zar1, zar2;
+    int dice1, dice2;
     for(int i = 0; i < 10; i++){
 
-        zar1 = 1+(rand()%6);
-        zar2 = 1+(rand()%6);
-        printf("Zar1 : %d ve Zar2 : %d \n",zar1,zar2);
+        dice1 = 1+(rand()%6);
+        dice2 = 1+(rand()%6);
+        printf("Zar1 : %d ve Zar2 : %d \n",dice1,dice2);
     }
 
 
