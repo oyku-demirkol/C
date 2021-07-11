@@ -10,7 +10,7 @@ int main(){
 
         dice1 = 1+(rand()%6);
         dice2 = 1+(rand()%6);
-        printf("Zar1 : %d ve Zar2 : %d \n",dice1,dice2);
+        printf("Dice1 : %d ve Dice2 : %d \n",dice1,dice2);
     }
 
 
