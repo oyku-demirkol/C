@@ -18,7 +18,7 @@ int main()
     //determine element to increment
 
     for(size_t answer = 0; answer< RESPONSES_SIZE; ++answer){
-     ++frequency[responses[answer]]; //responses[answer] =  ++frequency[responses[answer]];
+     ++frequency[responses[answer]]; //frequency[responses[answer]] = frequency[responses[answer]] + 1;
     }
     //display results
     printf("%s%17s\n", "Rating","Frequency");
