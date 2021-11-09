@@ -19,7 +19,7 @@ int main()
      //output characters until null character is reached
      for(size_t i=0; i<SIZE && string1[i] != '\0'; ++i){  
          //space = '\0' The character constant representing the null character is '\0'. 
-         //All strings in C end with this character!!! 
+         //All strings in C end with this character!!! for exp. The preceding definition is equivalent to -> char string1[] = {'f','i', 'r', 's', 't','\0'};
         printf("%c ", string1[i]);
      }
      puts("");
