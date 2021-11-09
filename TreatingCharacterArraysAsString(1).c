@@ -17,7 +17,9 @@ int main()
     printf("string1 is: %s\nstring2 is: %s\n"
            "string1 with spaces between charachter is:\n",string1,string2);
      //output characters until null character is reached
-     for(size_t i=0; i<SIZE && string1[i] != '\0'; ++i){  //space = '\0'
+     for(size_t i=0; i<SIZE && string1[i] != '\0'; ++i){  
+         //space = '\0' The character constant representing the null character is '\0'. 
+         //All strings in C end with this character!!! 
         printf("%c ", string1[i]);
      }
      puts("");
