@@ -13,6 +13,7 @@ int main()
     printf("%s", "Enter a string (no longer than 19 characters): ");
     scanf("%19s", string1); //   gets(string1); gets function is better for strings and if you want all input than you should gets func. use
     //otherwise it(scanf) gives you nothing after space , and for scanf you should not & use.
+   // Function scanf will read characters until a space, tab, newline or end-of-file indicator is encountered. 
 
     //output strings
     printf("string1 is: %s\nstring2 is: %s\n"
