@@ -21,8 +21,8 @@ int main(){
     cout << endl ;
     
     //2.method
-    for (const auto& col: a) {
-     for (const int& value: col) {
+    for (const auto& row : a) {
+     for (const int& value: row) {
         cout << value << " ";
      }
     cout << endl;
