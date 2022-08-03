@@ -1,4 +1,4 @@
-
+//value of variables stores in ram cause they need temporary memory during program works
 #include <iostream>
 
 int main()
